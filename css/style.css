@@ -35,7 +35,7 @@ ul{
 
 #landing,
 #gallery{
-	height: 100vh;
+	min-height: 100vh;
 	  /* center the content vertically using flexbox */
   /* center the content vertically using flexbox */
   	display: flex;
@@ -54,3 +54,11 @@ ul{
 }
 
 
+
+html{
+	scroll-behavior: smooth;
+}
+
+#landing{
+	margin-top: 75px;
+}
