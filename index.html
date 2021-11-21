@@ -2,22 +2,51 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Aldwin Hidalgo | Front-end Developer Portfolio</title>
+	<!-- Bootstrap css -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<!-- css -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--bootstrap and css end-->
 </head>
+
 <body>
-	<div class="container">
-		<section id="landing">
+	<!--navbar start-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#landing">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#gallery">Gallery</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--navbar end-->
+	<div class="container fluid">
+		<section id="landing" class="jumbotron text-center mt-3">
 			<h1>Aldwin Hidalgo</h1>
 			<h2>Front-end Developer</h2>
+<<<<<<< HEAD
 			<p>Hi, my name is Aldwin, and I am in love with the web development. In the future, I aspire to be a successful Front-end Developer.</p>
 			<img src="./images/i.jpg">
+=======
+			<p>Hi, my name is Aldwin, and I am in love with the web developmant. In the future, I aspire to be a successful web developer.</p>
+			<img src="./images/i.jpg" class="img-fluid">
+>>>>>>> day2
 		</section>
-		<section id="gallery">		
+		<section id="gallery" class="text-center bg-dark mb-5">		
 			<div class="tools">
 				<h2>Language I speak</h2>
-				<ul>
+				<ul class="text-white">
 					<li>HTML</li>
 					<li>CSS</li>
 
@@ -25,14 +54,21 @@
 			</div>
 			<div class="tools">
 				<h2>Tools I use</h2>
-				<ul>
-					<li>Git Bash (terminal)</li>
-					<li>Sublime Text</li>
-					<li>GitHub</li>
+				<ul class="text-white">
+					<li>Visual Studio Code</li>
+					<li>Git Bash (terminal)</li>		
 					<li>Google Chrome</li>
+					<li>GitHub</li>
 				</ul>
 			</div>
 		</section>
 	</div>
+
+
+
+	<!--bootstrap js start-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+	<!--bootsrap js end-->
 </body>
 </html>
