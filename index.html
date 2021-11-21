@@ -12,12 +12,30 @@
 </head>
 
 <body>
-	<div class="container">
-		<section id="landing">
+	<!--navbar start-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#landing">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#gallery">Gallery</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--navbar end-->
+	<div class="container fluid">
+		<section id="landing" class="jumbotron text-center mt-3">
 			<h1>Aldwin Hidalgo</h1>
 			<h2>Front-end Developer</h2>
 			<p>Hi, my name is Aldwin, and I am in love with the web developmant. In the future, I aspire to be a successful web developer.</p>
-			<img src="./images/i.jpg">
+			<img src="./images/i.jpg" class="img-fluid">
 		</section>
 		<section id="gallery">		
 			<div class="tools">
@@ -39,6 +57,7 @@
 			</div>
 		</section>
 	</div>
+
 
 
 	<!--bootstrap js start-->
